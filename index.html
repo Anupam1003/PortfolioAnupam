@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupam's portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js"></script> -->
+    <script src="https://kit.fontawesome.com/779bbc1e13.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/A.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Social Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fresher</p>
+                <h1>Hi, I'm <span>Anupam </span><br>Gupta From Khajuraho</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Anupam Gupta. Innovative Computer Science Engineer with a B.Tech degree and expertise in Java, JavaScript, HTML, CSS, and SQL. Currently, a Trainee at AssistClick, contributing to analytics and document management for global clients. Developed a sleek portfolio and an e-commerce platform, showcasing strong front-end skills. Certified in SQL and HTML, with a Gold Badge in SQL from HackerRank. Fluent in Hindi and English, I excel in teamwork and problem-solving, driven to create impactful digital-solutions.<br>I am a quick learner, belive in learning new technology and skill, which can help me to
+                        grow and update in my carear.<br>
+                        I am very punctual and selfmotivated person .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java,C,C++</span><br>Programming Languages</li>
+                            <li><span>HTML,CSS,JS</span><br>Web Development</li>
+                            <li><span>DBMS/SQL</span><br>Database</li>
+                            <li><span>VS CODE, IntelliJ IDEA, Oracle SQL*Plus</span><br>tools</li>
+                            <li><span>Bootstrap</span><br>Redimade styling</li>
+                            <li><span>OOps</span><br>Programing fundamentals</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>SQL</span><br> From University of Michigan </li>
+                            <li><span>Introduction to Networks</span><br> CCNA_M1 From Cisco (11/2021 - 03/2022) </li>
+                            <li><span>C++ For C Programmers, Part A</span><br>From University of California</li>
+                            <li><span>HTML</span><br> From SoloLearn </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology (Computer Science and Engineering) 
+                                Shri Ram Group Of Institution Jabalpur</span><br>06/2019 - 06/2023, 8.05 CGPA  </li>
+                            <li><span>Senior Secondary (MP Board) 
+                                Shri V. H. School, Lavkushnagar</span><br>05/2018 - 05/2019, 65.14%   </li>
+                            <li><span>Higher Secondary(MP Board) 
+                                Shri V. H. School, Lavkushnagar </span><br>05/2016 - 05/2017, 68.00%  </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------project---------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni tenetur assumenda natus
+                        autem nulla sint deserunt saepe praesentium! Quia?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>java Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni tenetur assumenda natus
+                        autem nulla sint deserunt saepe praesentium! Quia?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>SQL Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni tenetur assumenda natus
+                        autem nulla sint deserunt saepe praesentium! Quia?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Social Media</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/social1.png" alt="">
+                    <div class="layer">
+                        <h3>linkedin</h3>
+                        <p>LinkedIn is a professional networking platform that facilitates connections, career development, and knowledge-sharing among professionals and businesses worldwide.<br>As a fresher on LinkedIn, I am building my professional network, showcasing my skills, and exploring career opportunities.
+                        </p>
+                        <a href="https://www.linkedin.com/in/anupam-gupta-667718232"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/social2.png" alt="">
+                    <div class="layer">
+                        <h3>Music Media App</h3>
+                        <p>As a fresher on GitHub, I am showcasing my coding projects, collaborating with others, and contributing to open-source communities to enhance my programming skills and build a portfolio.</p>
+                        <a href="https://www.github.com/Anupam1003"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/social3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>The app contacts you the telented people around the world.download from play list</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- --------------------Contact form ----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anupam.gupta1003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+918358869654</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anupam-gupta-667718232"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://www.github.com/Anupam1003"><i class="fa-brands fa-github"></i></a>
+
+                        <a href="https://www.github.com/Anupam1003"><i class="fa-brands fa-square-instagram"></i></a>
+
+
+                    </div>
+                    <a href="images/Anupam gupta Resume .pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Anupam Gupta's <i class="fa-solid fa-heart"></i> Personal Portfolio</p>
+        </div>
+    </div>   
+    <script src="script.js"></script>
+
+</body>
+
+</html>
