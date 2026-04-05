@@ -156,6 +156,15 @@ nav ul li a:hover::after {
     font-size: 14px;
 }
 
+.education-link {
+    color: rgb(70, 162, 141);
+    text-decoration: none;
+}
+
+.education-link:hover {
+    text-decoration: underline;
+}
+
 .tab-contents {
     display: none;
 
